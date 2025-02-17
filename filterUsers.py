@@ -10,5 +10,5 @@ with open(input_file, mode='r', newline='') as infile, open(output_file, mode='w
     
     writer.writeheader()
     for row in reader:
-        if int(row['numberOfConversations']) > 1:
+        if int(row['numberOfConversations']) > 1: # can be changed to another header
             writer.writerow(row)
