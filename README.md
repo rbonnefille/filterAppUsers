@@ -9,10 +9,11 @@ This project contains scripts to filter appUsers based on the CSV file header `n
 
 ## Installation
 
-To install the necessary dependencies, run:
+Create a virtual environment and activate it:
 
 ```bash
-pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate
 ```
 
 ## Usage
