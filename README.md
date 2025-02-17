@@ -6,8 +6,6 @@ This project contains scripts to filter appUsers based on the CSV file header `n
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -18,6 +16,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+Import csv file with the following columns:
+
+| appUserId | userId | lastSeen | createdAt | numberOfConversations | verifiedEmail |
+| --------- | ------ | -------- | --------- | --------------------- | ------------- |
+|           |        |          |           |                       |               |
 
 To filter users, run the following command:
 
